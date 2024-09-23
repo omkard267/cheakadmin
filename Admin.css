@@ -1,0 +1,42 @@
+body{
+    background-color: #c2cad3;
+}
+.container{
+  margin: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a8b1bc;
+  border: black solid;
+  border-radius: 0.2cm;
+}
+
+.store{
+  width: 55% ;
+  height: auto;
+  background-color: #a8b1bc;
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.boxes{
+  border-radius: 0.2cm;
+  width: 200px;
+  height: 150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #5A6975;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.boxes h2{
+  color: rgb(12, 1, 52);
+}
